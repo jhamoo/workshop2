@@ -19,6 +19,26 @@
             "projectName": "myapp4",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootApplication<springboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.test.springboot.SpringbootApplication",
+            "projectName": "springboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootappApplication<springbootapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.test.springbootapp.SpringbootappApplication",
+            "projectName": "springbootapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
